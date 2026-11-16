@@ -133,7 +133,7 @@ export default function App() {
     if (downloadingZip) return;
     setDownloadingZip(true);
     try {
-      await downloadStaticArtifact('/api/export-project-zip', 'netflix-insights-rohit-shinde.zip');
+      await downloadStaticArtifact('/downloads/netflix-insights-rohit-shinde.zip', 'netflix-insights-rohit-shinde.zip');
     } finally {
       setDownloadingZip(false);
     }
