@@ -1,0 +1,440 @@
+{
+  "overview": {
+    "total_titles": 8803,
+    "total_movies": 6128,
+    "total_tv_shows": 2675,
+    "movie_share_pct": 69.61,
+    "tv_show_share_pct": 30.39,
+    "earliest_release_year": 1925,
+    "latest_release_year": 2021,
+    "unique_countries": 122,
+    "unique_genres": 42
+  },
+  "top_genres": [
+    {
+      "genre": "International Movies",
+      "total_titles": 2749,
+      "movies": 2749,
+      "tv_shows": 0
+    },
+    {
+      "genre": "Dramas",
+      "total_titles": 2425,
+      "movies": 2425,
+      "tv_shows": 0
+    },
+    {
+      "genre": "Comedies",
+      "total_titles": 1672,
+      "movies": 1672,
+      "tv_shows": 0
+    },
+    {
+      "genre": "International TV Shows",
+      "total_titles": 1350,
+      "movies": 0,
+      "tv_shows": 1350
+    },
+    {
+      "genre": "Documentaries",
+      "total_titles": 869,
+      "movies": 869,
+      "tv_shows": 0
+    },
+    {
+      "genre": "Action & Adventure",
+      "total_titles": 859,
+      "movies": 859,
+      "tv_shows": 0
+    },
+    {
+      "genre": "TV Dramas",
+      "total_titles": 762,
+      "movies": 0,
+      "tv_shows": 762
+    },
+    {
+      "genre": "Independent Movies",
+      "total_titles": 756,
+      "movies": 756,
+      "tv_shows": 0
+    },
+    {
+      "genre": "Children & Family Movies",
+      "total_titles": 641,
+      "movies": 641,
+      "tv_shows": 0
+    },
+    {
+      "genre": "Romantic Movies",
+      "total_titles": 616,
+      "movies": 616,
+      "tv_shows": 0
+    },
+    {
+      "genre": "TV Comedies",
+      "total_titles": 581,
+      "movies": 0,
+      "tv_shows": 581
+    },
+    {
+      "genre": "Thrillers",
+      "total_titles": 576,
+      "movies": 576,
+      "tv_shows": 0
+    },
+    {
+      "genre": "Crime TV Shows",
+      "total_titles": 470,
+      "movies": 0,
+      "tv_shows": 470
+    },
+    {
+      "genre": "Kids' TV",
+      "total_titles": 451,
+      "movies": 0,
+      "tv_shows": 451
+    },
+    {
+      "genre": "Docuseries",
+      "total_titles": 395,
+      "movies": 0,
+      "tv_shows": 395
+    }
+  ],
+  "top_countries": [
+    {
+      "country": "United States",
+      "total_titles": 3689,
+      "movies": 2752,
+      "tv_shows": 937
+    },
+    {
+      "country": "India",
+      "total_titles": 1046,
+      "movies": 962,
+      "tv_shows": 84
+    },
+    {
+      "country": "United Kingdom",
+      "total_titles": 806,
+      "movies": 534,
+      "tv_shows": 272
+    },
+    {
+      "country": "Canada",
+      "total_titles": 445,
+      "movies": 319,
+      "tv_shows": 126
+    },
+    {
+      "country": "France",
+      "total_titles": 393,
+      "movies": 303,
+      "tv_shows": 90
+    },
+    {
+      "country": "Japan",
+      "total_titles": 318,
+      "movies": 119,
+      "tv_shows": 199
+    },
+    {
+      "country": "Spain",
+      "total_titles": 232,
+      "movies": 171,
+      "tv_shows": 61
+    },
+    {
+      "country": "South Korea",
+      "total_titles": 231,
+      "movies": 61,
+      "tv_shows": 170
+    },
+    {
+      "country": "Germany",
+      "total_titles": 226,
+      "movies": 182,
+      "tv_shows": 44
+    },
+    {
+      "country": "Mexico",
+      "total_titles": 169,
+      "movies": 111,
+      "tv_shows": 58
+    },
+    {
+      "country": "China",
+      "total_titles": 162,
+      "movies": 114,
+      "tv_shows": 48
+    },
+    {
+      "country": "Australia",
+      "total_titles": 160,
+      "movies": 94,
+      "tv_shows": 66
+    },
+    {
+      "country": "Egypt",
+      "total_titles": 117,
+      "movies": 102,
+      "tv_shows": 15
+    },
+    {
+      "country": "Turkey",
+      "total_titles": 112,
+      "movies": 82,
+      "tv_shows": 30
+    },
+    {
+      "country": "Hong Kong",
+      "total_titles": 104,
+      "movies": 99,
+      "tv_shows": 5
+    }
+  ],
+  "addition_trends": [
+    {
+      "year_added": 2008,
+      "titles_added": 2,
+      "movies_added": 1,
+      "tv_shows_added": 1
+    },
+    {
+      "year_added": 2009,
+      "titles_added": 2,
+      "movies_added": 2,
+      "tv_shows_added": 0
+    },
+    {
+      "year_added": 2010,
+      "titles_added": 1,
+      "movies_added": 1,
+      "tv_shows_added": 0
+    },
+    {
+      "year_added": 2011,
+      "titles_added": 13,
+      "movies_added": 13,
+      "tv_shows_added": 0
+    },
+    {
+      "year_added": 2012,
+      "titles_added": 3,
+      "movies_added": 3,
+      "tv_shows_added": 0
+    },
+    {
+      "year_added": 2013,
+      "titles_added": 11,
+      "movies_added": 6,
+      "tv_shows_added": 5
+    },
+    {
+      "year_added": 2014,
+      "titles_added": 24,
+      "movies_added": 19,
+      "tv_shows_added": 5
+    },
+    {
+      "year_added": 2015,
+      "titles_added": 82,
+      "movies_added": 56,
+      "tv_shows_added": 26
+    },
+    {
+      "year_added": 2016,
+      "titles_added": 429,
+      "movies_added": 253,
+      "tv_shows_added": 176
+    },
+    {
+      "year_added": 2017,
+      "titles_added": 1188,
+      "movies_added": 839,
+      "tv_shows_added": 349
+    },
+    {
+      "year_added": 2018,
+      "titles_added": 1647,
+      "movies_added": 1235,
+      "tv_shows_added": 412
+    },
+    {
+      "year_added": 2019,
+      "titles_added": 2014,
+      "movies_added": 1423,
+      "tv_shows_added": 591
+    },
+    {
+      "year_added": 2020,
+      "titles_added": 1879,
+      "movies_added": 1284,
+      "tv_shows_added": 595
+    },
+    {
+      "year_added": 2021,
+      "titles_added": 1498,
+      "movies_added": 993,
+      "tv_shows_added": 505
+    }
+  ],
+  "rating_distribution": [
+    {
+      "rating": "TV-MA",
+      "rating_tier": "Mature & Adult",
+      "total_titles": 3204
+    },
+    {
+      "rating": "TV-14",
+      "rating_tier": "Teens & General",
+      "total_titles": 2160
+    },
+    {
+      "rating": "TV-PG",
+      "rating_tier": "Teens & General",
+      "total_titles": 863
+    },
+    {
+      "rating": "R",
+      "rating_tier": "Mature & Adult",
+      "total_titles": 799
+    },
+    {
+      "rating": "PG-13",
+      "rating_tier": "Teens & General",
+      "total_titles": 490
+    },
+    {
+      "rating": "TV-Y7",
+      "rating_tier": "Kids & Family",
+      "total_titles": 334
+    },
+    {
+      "rating": "TV-Y",
+      "rating_tier": "Kids & Family",
+      "total_titles": 307
+    },
+    {
+      "rating": "PG",
+      "rating_tier": "Teens & General",
+      "total_titles": 287
+    },
+    {
+      "rating": "TV-G",
+      "rating_tier": "Kids & Family",
+      "total_titles": 220
+    },
+    {
+      "rating": "NR",
+      "rating_tier": "Unrated",
+      "total_titles": 82
+    },
+    {
+      "rating": "G",
+      "rating_tier": "Kids & Family",
+      "total_titles": 41
+    },
+    {
+      "rating": "Not Rated",
+      "rating_tier": "Unrated",
+      "total_titles": 7
+    },
+    {
+      "rating": "TV-Y7-FV",
+      "rating_tier": "Kids & Family",
+      "total_titles": 6
+    },
+    {
+      "rating": "NC-17",
+      "rating_tier": "Mature & Adult",
+      "total_titles": 3
+    }
+  ],
+  "movie_duration_stats": {
+    "count": 6128,
+    "min_minutes": 3,
+    "max_minutes": 312,
+    "avg_minutes": 99.56,
+    "median_minutes": 98.0
+  },
+  "season_distribution": [
+    {
+      "seasons_count": 1,
+      "show_count": 1793
+    },
+    {
+      "seasons_count": 2,
+      "show_count": 425
+    },
+    {
+      "seasons_count": 3,
+      "show_count": 198
+    },
+    {
+      "seasons_count": 4,
+      "show_count": 95
+    },
+    {
+      "seasons_count": 5,
+      "show_count": 65
+    },
+    {
+      "seasons_count": 6,
+      "show_count": 33
+    },
+    {
+      "seasons_count": 7,
+      "show_count": 23
+    },
+    {
+      "seasons_count": 8,
+      "show_count": 17
+    },
+    {
+      "seasons_count": 9,
+      "show_count": 9
+    },
+    {
+      "seasons_count": 10,
+      "show_count": 7
+    },
+    {
+      "seasons_count": 11,
+      "show_count": 2
+    },
+    {
+      "seasons_count": 12,
+      "show_count": 2
+    },
+    {
+      "seasons_count": 13,
+      "show_count": 3
+    },
+    {
+      "seasons_count": 15,
+      "show_count": 2
+    },
+    {
+      "seasons_count": 17,
+      "show_count": 1
+    }
+  ],
+  "release_to_addition_lag": [
+    {
+      "type": "Movie",
+      "sample_size": 6126,
+      "avg_years_to_platform": 5.73,
+      "same_year_releases": 1862,
+      "same_year_pct": 30.4
+    },
+    {
+      "type": "TV Show",
+      "sample_size": 2653,
+      "avg_years_to_platform": 2.31,
+      "same_year_releases": 1379,
+      "same_year_pct": 51.98
+    }
+  ]
+}

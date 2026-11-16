@@ -1,0 +1,6 @@
+{
+  "name": "Netflix Insights",
+  "description": "Content Analytics & Business Intelligence Dashboard created by Rohit Shinde.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

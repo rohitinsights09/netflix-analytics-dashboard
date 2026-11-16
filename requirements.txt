@@ -1,0 +1,8 @@
+# Python Requirements for Netflix Insights Data Pipeline
+# Author: Rohit Shinde
+# The primary pipeline (scripts/process_netflix_data.py) uses Python 3.10+ standard library modules
+# (csv, json, os, re, sqlite3, statistics, datetime) and requires zero external packages to run.
+#
+# Optional packages for standalone Jupyter/EDA notebook extensions:
+pandas>=2.1.0
+openpyxl>=3.1.0

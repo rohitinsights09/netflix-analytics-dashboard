@@ -1,0 +1,168 @@
+{
+  "dataset_name": "netflix_titles_df1f4ad2.csv",
+  "generated_by": "Rohit Shinde",
+  "raw_row_count": 8807,
+  "cleaned_row_count": 8803,
+  "duplicates_removed_count": 4,
+  "duplicates_removed": [
+    {
+      "removed_show_id": "s6530",
+      "retained_show_id": "s3372",
+      "title": "Consequences",
+      "type": "Movie",
+      "release_year": 2014
+    },
+    {
+      "removed_show_id": "s6706",
+      "retained_show_id": "s304",
+      "title": "Esperando La Carroza",
+      "type": "Movie",
+      "release_year": 1985
+    },
+    {
+      "removed_show_id": "s7346",
+      "retained_show_id": "s160",
+      "title": "Love In A Puff",
+      "type": "Movie",
+      "release_year": 2010
+    },
+    {
+      "removed_show_id": "s8023",
+      "retained_show_id": "s1271",
+      "title": "Sin Senos s\u00ed Hay Para\u00edso",
+      "type": "TV Show",
+      "release_year": 2018
+    }
+  ],
+  "column_count_raw": 12,
+  "column_count_cleaned": 19,
+  "raw_columns": [
+    "show_id",
+    "type",
+    "title",
+    "director",
+    "cast",
+    "country",
+    "date_added",
+    "release_year",
+    "rating",
+    "duration",
+    "listed_in",
+    "description"
+  ],
+  "cleaned_columns": [
+    "show_id",
+    "type",
+    "title",
+    "director",
+    "cast",
+    "country",
+    "primary_country",
+    "date_added",
+    "year_added",
+    "month_added",
+    "release_year",
+    "rating",
+    "rating_tier",
+    "duration",
+    "duration_minutes",
+    "seasons_count",
+    "listed_in",
+    "primary_genre",
+    "description"
+  ],
+  "raw_missing_values": {
+    "show_id": 0,
+    "type": 0,
+    "title": 0,
+    "director": 2634,
+    "cast": 825,
+    "country": 831,
+    "date_added": 10,
+    "release_year": 0,
+    "rating": 4,
+    "duration": 3,
+    "listed_in": 0,
+    "description": 0
+  },
+  "anomalies_repaired": {
+    "shifted_duration_in_rating": [
+      {
+        "show_id": "s5542",
+        "title": "Louis C.K. 2017",
+        "raw_rating": "74 min",
+        "raw_duration": ""
+      },
+      {
+        "show_id": "s5795",
+        "title": "Louis C.K.: Hilarious",
+        "raw_rating": "84 min",
+        "raw_duration": ""
+      },
+      {
+        "show_id": "s5814",
+        "title": "Louis C.K.: Live at the Comedy Store",
+        "raw_rating": "66 min",
+        "raw_duration": ""
+      }
+    ],
+    "malformed_country_lists_count": 7,
+    "malformed_country_examples": [
+      {
+        "show_id": "s194",
+        "title": "D.P.",
+        "raw_country": ", South Korea"
+      },
+      {
+        "show_id": "s366",
+        "title": "Eyes of a Thief",
+        "raw_country": ", France, Algeria"
+      },
+      {
+        "show_id": "s1193",
+        "title": "The Present",
+        "raw_country": "United Kingdom,"
+      },
+      {
+        "show_id": "s2225",
+        "title": "Funan",
+        "raw_country": "France, Belgium, Luxembourg, Cambodia,"
+      },
+      {
+        "show_id": "s4654",
+        "title": "City of Joy",
+        "raw_country": "United States,"
+      },
+      {
+        "show_id": "s5926",
+        "title": "Virunga",
+        "raw_country": "United Kingdom,"
+      },
+      {
+        "show_id": "s7008",
+        "title": "Hotel Pacific",
+        "raw_country": "Poland,"
+      }
+    ],
+    "ratings_standardized_count": 7,
+    "titles_whitespace_normalized": 9
+  },
+  "post_cleaning_summary": {
+    "missing_duration_count": 0,
+    "missing_rating_count": 0,
+    "missing_date_added_count": 10,
+    "unknown_country_count": 831,
+    "unspecified_director_count": 2633,
+    "unspecified_cast_count": 825
+  },
+  "cleaning_pipeline_steps": [
+    "Preserved raw CSV untouched and verified 12 schema columns across 8,807 records.",
+    "Normalized non-breaking spaces (\\u00a0) and redundant whitespace across text columns.",
+    "Recovered 3 shifted movie duration values ('74 min', '84 min', '66 min') mistakenly placed in the rating column (s5542, s5795, s5814) and reassigned rating to 'Not Rated'.",
+    "Deduplicated 4 duplicate (normalized_title, type, release_year) entries while preserving unique show_id integrity.",
+    "Cleaned malformed comma-delimited country lists (e.g., leading/trailing commas on 7 records) and deduplicated country tokens per title.",
+    "Standardized missing categorical labels: country -> 'Unknown', director/cast -> 'Not Specified', rating -> 'Not Rated', and unified 'UR' into 'NR'.",
+    "Parsed 'date_added' strings into ISO-8601 dates (YYYY-MM-DD), integer year_added, and month_added.",
+    "Extracted integer 'duration_minutes' for Movies and 'seasons_count' for TV Shows for statistical aggregation."
+  ]
+}
